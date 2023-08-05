@@ -1,0 +1,54 @@
+* {
+  background-color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 100px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  font-weight: bold;
+}
+
+.qr-code-container {
+  display: flexbox;
+  flex-direction: column;
+  border-radius: 3%;
+  width: 400px;
+  height: 550px;
+  background-color: White;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  right: -550px;
+  bottom: -50px;
+}
+
+.qr-code-text {
+  display: flexbox;
+  background-color: white;
+  justify-content: center;
+}
+
+#qr-code-text1 {
+  border: 2px black solid;
+}
+
+#qr-code-text2 {
+  font-weight: normal;
+  background-color: white;
+}
+
+#qr-code {
+  height: 340px;
+  width: 300px;
+  border-radius: 5%;
+  margin: 5%;
+  position: relative;
+  right: -30px;
+  align-items: center;
+}
